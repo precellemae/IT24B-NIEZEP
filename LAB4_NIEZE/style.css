@@ -1,0 +1,16 @@
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    background-color: beige;
+    
+}
+
+.body{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: blanchedalmond;
+
+}
