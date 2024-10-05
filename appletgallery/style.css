@@ -4,3 +4,13 @@
     width: 95%;
     flex-wrap: wrap;
 }
+
+.applet-flex-container > div{ 
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.applet-card{
+    width: 18rem;
+    height: 12rem;
+}
