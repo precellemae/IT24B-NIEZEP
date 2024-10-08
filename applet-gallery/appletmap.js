@@ -29,5 +29,5 @@ class LeafletMap {
     }
 }
 
-const myMap = new LeafletMap('map', [8.360004, 124.868419], 18);
+const myMap = new LeafletMap('map', [8.360005, 124.868419], 18);
 myMap.loadMarkersFromJson('appletloc.json');
