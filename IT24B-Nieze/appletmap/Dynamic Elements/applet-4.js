@@ -18,7 +18,7 @@ class StudentList {
             console.error('Error fetching data:', error);
         }
     }
-}
+
 renderStudentList(students) {
     const studentSearchListContainer = document.getElementById('studentSearchList');
     studentSearchListContainer.innerHTML = ''; 
@@ -31,6 +31,7 @@ renderStudentList(students) {
         `;
     });
 }
+
 bindSearchEvent() {
     const studentSearchBar = document.getElementById('studentSearchBar');
 
@@ -40,3 +41,14 @@ bindSearchEvent() {
 
     this.renderStudentList(this.students);
 }
+filterStudents(query) {
+    const filteredStudents = this.students.filter(student => {
+        const fullName = `${student.student_name} ${student.student_program}`;
+        return fullName.toLowerCase().includes(query.toLowerCase());
+    });
+
+    this.renderStudentList(filteredStudents);
+    }
+}
+
+const studentList = new StudentList('applet-4.json');
