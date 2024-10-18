@@ -17,3 +17,9 @@
         "description": "This application applies recording events while using HTML elements such as buttons",
         "link": "./applet-3/"
       },
+      {
+        "title": "Applet 4 - Dynamic Elements",
+        "icon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUBvxo5D1HhtA1ORmg3iifsuLNY5B_iVWIwg&s",
+        "description": "This application applies dynamic elements such as rendering DOM elements from a list",
+        "link": "./applet-4/"
+      },
