@@ -11,3 +11,9 @@
         "description": "This application contains the basic web map",
         "link": "./applet-2/"
       },
+      {
+        "title": "Applet 3 - Event Button Logger",
+        "icon":"https://cdn3d.iconscout.com/3d/premium/thumb/focus-3d-icon-download-in-png-blend-fbx-gltf-file-formats--target-goal-aim-arrow-business-pack-icons-4997123.png",
+        "description": "This application applies recording events while using HTML elements such as buttons",
+        "link": "./applet-3/"
+      },
