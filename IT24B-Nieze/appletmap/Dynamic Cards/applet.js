@@ -66,3 +66,15 @@ class AppletRenderer {
                     new bootstrap.Tooltip(tooltipTriggerEl);
                 });
             }        
+            filterApplets() {
+                const query = this.searchInput.value.toLowerCase();
+                this.filteredData = this.appletData.filter(applet =>
+                    applet.title.toLowerCase().includes(query) ||
+                    applet.description.toLowerCase().includes(query)
+                );
+                this.renderApplets(this.filteredData);
+            }
+        }
+        
+        const appletRenderer = new AppletRenderer('applet-container', 'searchApplet');
+        appletRenderer.fetchAppletData('applets.json');
