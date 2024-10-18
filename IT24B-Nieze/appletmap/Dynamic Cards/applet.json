@@ -29,3 +29,10 @@
         "description": "This application is the basic usage of the Openweather API",
         "link": "./applet-5/"
       },
+      {
+        "title": "Applet 6 - To do List",
+        "icon":"https://static-00.iconduck.com/assets.00/todo-icon-1024x1024-7nszgsj6.png",
+        "description": "A to-do list is a tool that helps individuals manage tasks by allowing them to add, edit, and remove items.",
+        "link": "./applet-6/"
+      }
+    ]
