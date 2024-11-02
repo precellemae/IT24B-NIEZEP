@@ -20,3 +20,13 @@ handleListClick(event) {
         this.doneTask(target);
     }
 }
+
+addOrUpdateTask() {
+    const taskText = this.todoInput.value.trim();
+    const dueDate = this.dueDateInput.value;
+    if (taskText) {
+        this.editingIndex === -1 ? this.addTask(taskText, dueDate) : this.updateTask(taskText, dueDate);
+        this.todoInput.value = '';
+        this.dueDateInput.value = '';  
+    }
+}
