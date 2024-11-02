@@ -34,3 +34,14 @@ addTask(taskText, dueDate) {
     const listItem = this.createTaskElement(taskText, dueDate);
     this.todoList.appendChild(listItem);
 }
+
+updateTask(taskText, dueDate) {
+    const taskItem = this.todoList.children[this.editingIndex];
+    taskItem.querySelector('.task-text').textContent = taskText;
+    taskItem.querySelector('.due-date').textContent = `Due Date: ${dueDate ? new Date(dueDate).toLocaleString() : 'No due date'}`;
+    this.resetEditing();
+}
+
+removeTask(target) {
+    this.todoList.removeChild(target.closest('.todo-item'));
+}
