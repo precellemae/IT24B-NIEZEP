@@ -22,4 +22,11 @@ class WeatherApp {
         this.getLocationBtn.addEventListener('click', () => this.fetchWeatherByLocation());
     }
 }
-
+asyncfetchWeather() {
+    const apiKey = this.apiKeyInput.value.trim();
+    const city = this.cityInput.value.trim();
+    if (!apiKey || !city) {
+        alert('Please enter your API key and a city name.');
+        return;
+    }
+}
