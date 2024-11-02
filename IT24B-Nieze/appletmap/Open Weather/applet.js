@@ -73,3 +73,4 @@ displayWeather(data) {
         .bindPopup(`${data.name}`)
         .openPopup();
 }
+document.addEventListener('DOMContentLoaded', () => new WeatherApp());
