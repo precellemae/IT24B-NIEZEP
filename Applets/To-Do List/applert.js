@@ -63,6 +63,5 @@ disableButtons(taskItem) {
     const buttons = taskItem.querySelectorAll('button');
     buttons.forEach(button => button.disabled = true);
 }
-}
 
 document.addEventListener('DOMContentLoaded', () => new TodoList());
