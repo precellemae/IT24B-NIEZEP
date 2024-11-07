@@ -3,7 +3,7 @@
       "title": "Applet 1 - Basic Events",
       "icon":"https://cdn-icons-png.flaticon.com/512/2646/2646050.png",
       "description": "This application contains the basic implementation of DOM events",
-      "link": "./Applets/applet 1/index.html"
+      "link": "./Applets/Applet 1/index.html"
     },
     {
         "title": "Applet 2 - Leaflet Map",
